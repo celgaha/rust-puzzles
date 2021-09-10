@@ -2,5 +2,5 @@ mod challenge;
 mod util;
 
 fn main() {
-    println!("Total = {}", challenge::c002::solve(4000000))
+    println!("Answer = {}", challenge::c003::solve(600851475143))
 }
