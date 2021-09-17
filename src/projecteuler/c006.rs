@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn solve(a: i32) -> i32 {
     let mut m = 0;
     let mut n = 0;

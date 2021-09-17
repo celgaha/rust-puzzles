@@ -1,2 +1,2 @@
-pub mod 001hello;
-pub mod 002stones;
+pub mod k001;
+pub mod k002;

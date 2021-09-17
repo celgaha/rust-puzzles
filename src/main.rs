@@ -3,5 +3,5 @@ mod projecteuler;
 mod util;
 
 fn main() {
-    openkattis::002stones::solve(100);
+    openkattis::k002::solve(100);
 }
