@@ -3,5 +3,5 @@ mod projecteuler;
 mod util;
 
 fn main() {
-    println!("Answer = {}", projecteuler::c006::solve(100));
+    openkattis::002stones::solve(100);
 }
