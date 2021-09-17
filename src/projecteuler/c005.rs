@@ -1,10 +1,10 @@
-use crate::util::is_divisible;
+use crate::util::is_divisible64;
 
 #[allow(dead_code)]
 pub fn solve(a: i64) -> i64 {
     let mut m = a;
     for k in 1..a {
-        if !is_divisible(m, a - k) {
+        if !is_divisible64(m, a - k) {
             m += a;
         }
     }

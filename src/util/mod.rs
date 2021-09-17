@@ -1,4 +1,8 @@
-pub fn is_divisible(n: i64, k: i64) -> bool {
+pub fn is_divisible(n: i32, k: i32) -> bool {
+    n % k == 0
+}
+
+pub fn is_divisible64(n: i64, k: i64) -> bool {
     n % k == 0
 }
 
@@ -8,7 +12,7 @@ pub fn is_prime(n: i64) -> bool {
         return false;
     }
     for k in 2..n {
-        if is_divisible(n, k) {
+        if is_divisible64(n, k) {
             return false;
         }
     }

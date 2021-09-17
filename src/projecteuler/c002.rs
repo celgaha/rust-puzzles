@@ -1,4 +1,4 @@
-use crate::util::is_divisible;
+use crate::util::is_divisible64;
 
 #[allow(dead_code)]
 pub fn solve(k: i64) -> i64 {
@@ -9,7 +9,7 @@ pub fn solve(k: i64) -> i64 {
         let n = a + b;
         a = b;
         b = n;
-        if is_divisible(n, 2) {
+        if is_divisible64(n, 2) {
             m += n;
         }
     }
