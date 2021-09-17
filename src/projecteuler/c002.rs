@@ -1,7 +1,7 @@
 use crate::util::is_divisible;
 
 #[allow(dead_code)]
-pub fn solve(k: i32) -> i32 {
+pub fn solve(k: i64) -> i64 {
     let mut a = 1;
     let mut b = 2;
     let mut m = 2;
