@@ -1,6 +1,6 @@
 use crate::util::is_divisible;
 
-pub fn solve(a: i32) -> i32 {
+pub fn solve(a: usize) -> i32 {
     let mut v: Vec<i32> = Vec::new();
     let mut p = 2;
     while v.len() < a {
@@ -9,5 +9,5 @@ pub fn solve(a: i32) -> i32 {
         }
         p += 1;
     }
-    return v[a];
+    return v[a - 1];
 }
