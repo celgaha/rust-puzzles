@@ -1,10 +1,10 @@
 use crate::util::is_divisible;
 
 #[allow(dead_code)]
-pub fn solve(a: i64) -> i64{
+pub fn solve(a: i64) -> i64 {
     let mut m = a;
-    for k in 1..a { 
-        if !is_divisible(m,a-k) {
+    for k in 1..a {
+        if !is_divisible(m, a - k) {
             m += a;
         }
     }
@@ -13,5 +13,5 @@ pub fn solve(a: i64) -> i64{
 
 #[test]
 fn test_divisor() {
-    assert_eq!(solve(10),2520);
+    assert_eq!(solve(10), 2520);
 }
