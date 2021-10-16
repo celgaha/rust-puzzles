@@ -3,5 +3,5 @@ mod projecteuler;
 mod util;
 
 fn main() {
-    openkattis::twostones::main()
+    println!("Answer = {}", projecteuler::c007::solve(10001))
 }
