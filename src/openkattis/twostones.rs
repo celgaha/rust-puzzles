@@ -1,4 +1,5 @@
 use crate::util::is_divisible;
+use crate::util::read::read;
 
 #[allow(dead_code)]
 pub fn solve(n: i32) {
@@ -7,6 +8,12 @@ pub fn solve(n: i32) {
     } else {
         println!("Alice");
     }
+}
+
+#[allow(dead_code)]
+pub fn main() {
+    let mut s = String::new();
+    solve(read::<i32>(&mut s));
 }
 
 #[test]

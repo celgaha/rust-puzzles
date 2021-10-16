@@ -3,5 +3,5 @@ mod projecteuler;
 mod util;
 
 fn main() {
-    projecteuler::c009::solve(1000);
+    openkattis::twostones::main()
 }
