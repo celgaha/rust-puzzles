@@ -1,9 +1,8 @@
-use crate::util::read::readvec;
+use crate::util::read::readmore;
 
 #[allow(dead_code)]
 pub fn main() {
-    readvec;
-    let a = v[0];
-    let b = v[1];
-    return a+b
+    let mut s = String::new();
+    let v = readmore::<i32>(&mut s);
+    println!("{}", v.sum::<i32>());
 }

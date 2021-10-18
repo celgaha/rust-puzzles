@@ -16,24 +16,24 @@ pub fn readone<T: FromStr>(s: &mut String) -> T
 where
     <T as FromStr>::Err: Debug,
 {
-    read_line(s);
-    let t = s.parse::<T>().unwrap();
     s.clear();
-    t
+    read_line(s);
+    s.parse::<T>().unwrap()
 }
 
 #[allow(dead_code)]
 pub fn readmore<T: FromStr>(s: &mut String) -> impl '_ + Iterator<Item = T>
 where
-  <T as FromStr>::Err: Debug,
+    <T as FromStr>::Err: Debug,
 {
     read_line(s);
     s.split(' ').map(|r| r.parse::<T>().unwrap())
 }
 
 #[allow(dead_code)]
-pub fn readvec() -> Vec<i32>{
-    let mut s = String::new();
-    let v = readmore::<i32>(&mut s).collect::<Vec<_>>();
-    v
+pub fn readvec<T: FromStr>(s: &mut String) -> Vec<T>
+where
+    <T as FromStr>::Err: Debug,
+{
+    readmore::<T>(s).collect::<Vec<_>>()
 }
