@@ -1,11 +1,9 @@
-use crate::util::read::read;
-
-pub fn solve(a: i32, b: i32) -> i32 {
-    return a + b;
-}
+use crate::util::read::readvec;
 
 #[allow(dead_code)]
 pub fn main() {
-    let mut s = String::new();
-    solve(read::<i32>(&mut s));
+    readvec;
+    let a = v[0];
+    let b = v[1];
+    return a+b
 }
