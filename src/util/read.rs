@@ -26,6 +26,7 @@ pub fn readmore<T: FromStr>(s: &mut String) -> impl '_ + Iterator<Item = T>
 where
     <T as FromStr>::Err: Debug,
 {
+    s.clear();
     read_line(s);
     s.split(' ').map(|r| r.parse::<T>().unwrap())
 }

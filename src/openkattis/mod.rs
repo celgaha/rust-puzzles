@@ -5,3 +5,6 @@ pub mod planina;
 pub mod sorttwonumbers;
 pub mod twostones;
 pub mod twosum;
+pub mod qaly;
+pub mod nsum;
+pub mod nastyhacks;
