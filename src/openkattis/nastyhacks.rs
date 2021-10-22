@@ -9,13 +9,11 @@ fn main() {
         let b = v[0];
         let c = v[1];
         let d = v[2];
-        if b == c-d {
+        if b == c - d {
             println!("does not matter");
-        }
-        else if b > c-d {
+        } else if b > c - d {
             println!("do not advertise");
-        }
-        else {
+        } else {
             println!("advertise")
         }
     }

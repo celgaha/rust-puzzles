@@ -51,3 +51,11 @@ path = "src/openkattis/twostones.rs"
 name = "twosum"
 path = "src/openkattis/twosum.rs"
 
+[[bin]]
+name = "railroad2"
+path = "src/openkattis/railroad2.rs"
+
+[[bin]]
+name = "thegrandadventure"
+path = "src/openkattis/thegrandadventure.rs"
+
