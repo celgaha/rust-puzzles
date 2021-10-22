@@ -1,4 +1,4 @@
-use crate::util::is_relatively_prime;
+use puzzles::util::is_relatively_prime;
 
 pub fn solve(a: usize) -> i32 {
     let mut v: Vec<i32> = Vec::new();

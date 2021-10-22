@@ -1,5 +1,5 @@
-use crate::util::read::readone;
-use crate::util::read::readvec;
+use puzzles::util::read::readone;
+use puzzles::util::read::readvec;
 
 #[allow(dead_code)]
 pub fn main() {

@@ -21,7 +21,6 @@ where
     s.parse::<T>().unwrap()
 }
 
-#[allow(dead_code)]
 pub fn readmore<T: FromStr>(s: &mut String) -> impl '_ + Iterator<Item = T>
 where
     <T as FromStr>::Err: Debug,
@@ -31,7 +30,6 @@ where
     s.split(' ').map(|r| r.parse::<T>().unwrap())
 }
 
-#[allow(dead_code)]
 pub fn readvec<T: FromStr>(s: &mut String) -> Vec<T>
 where
     <T as FromStr>::Err: Debug,

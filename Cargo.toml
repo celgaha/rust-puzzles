@@ -1,3 +1,53 @@
 [package]
 name = "hello-world"
+edition = "2021"
 version = "0.1.0"
+
+[lib]
+name = "puzzles"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "carrots"
+path = "src/openkattis/carrots.rs"
+
+[[bin]]
+name = "echoechoecho"
+path = "src/openkattis/echoechoecho.rs"
+
+[[bin]]
+name = "hello"
+path = "src/openkattis/hello.rs"
+
+[[bin]]
+name = "nastyhacks"
+path = "src/openkattis/nastyhacks.rs"
+
+[[bin]]
+name = "nsum"
+path = "src/openkattis/nsum.rs"
+
+[[bin]]
+name = "planina"
+path = "src/openkattis/planina.rs"
+
+[[bin]]
+name = "qaly"
+path = "src/openkattis/qaly.rs"
+
+[[bin]]
+name = "sorttwonumbers"
+path = "src/openkattis/sorttwonumbers.rs"
+
+[[bin]]
+name = "twostones"
+path = "src/openkattis/twostones.rs"
+
+[[bin]]
+name = "twosum"
+path = "src/openkattis/twosum.rs"
+

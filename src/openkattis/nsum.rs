@@ -1,8 +1,7 @@
-use crate::util::read::readone;
-use crate::util::read::readmore;
+use puzzles::util::read::readone;
+use puzzles::util::read::readmore;
 use std::iter::Iterator;
 
-#[allow(dead_code)]
 pub fn main() {
     let mut s = String::new();
     readone::<i32>(&mut s);

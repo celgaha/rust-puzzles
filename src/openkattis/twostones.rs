@@ -1,7 +1,6 @@
-use crate::util::is_divisible;
-use crate::util::read::readone;
+use puzzles::util::is_divisible;
+use puzzles::util::read::readone;
 
-#[allow(dead_code)]
 pub fn solve(n: i32) {
     if is_divisible(n, 2) {
         println!("Bob");
@@ -10,7 +9,6 @@ pub fn solve(n: i32) {
     }
 }
 
-#[allow(dead_code)]
 pub fn main() {
     let mut s = String::new();
     solve(readone::<i32>(&mut s));
