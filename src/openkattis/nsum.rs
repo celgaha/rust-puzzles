@@ -1,5 +1,5 @@
-use puzzles::util::read::readone;
-use puzzles::util::read::readmore;
+use puzzles::read::readone;
+use puzzles::read::readmore;
 use std::iter::Iterator;
 
 pub fn main() {

@@ -1,5 +1,5 @@
-use puzzles::util::is_divisible;
-use puzzles::util::read::readone;
+use puzzles::is_divisible;
+use puzzles::read::readone;
 
 pub fn solve(n: i32) {
     if is_divisible(n, 2) {

@@ -1,4 +1,4 @@
-use puzzles::util::is_divisible64;
+use puzzles::is_divisible64;
 
 #[allow(dead_code)]
 pub fn solve(k: i64) -> i64 {

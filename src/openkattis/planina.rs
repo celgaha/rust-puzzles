@@ -1,4 +1,4 @@
-use puzzles::util::read::readone;
+use puzzles::read::readone;
 
 fn main() {
     let mut s = String::new();

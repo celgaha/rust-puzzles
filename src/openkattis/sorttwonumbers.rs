@@ -1,4 +1,4 @@
-use puzzles::util::read::readvec;
+use puzzles::read::readvec;
 
 pub fn main() {
     let mut s = String::new();

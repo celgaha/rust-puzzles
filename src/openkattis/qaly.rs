@@ -1,5 +1,5 @@
-use puzzles::util::read::readone;
-use puzzles::util::read::readvec;
+use puzzles::read::readone;
+use puzzles::read::readvec;
 
 fn main() {
     let mut s = String::new();
