@@ -56,6 +56,5 @@ name = "railroad2"
 path = "src/openkattis/railroad2.rs"
 
 [[bin]]
-name = "thegrandadventure"
-path = "src/openkattis/thegrandadventure.rs"
-
+name = "pot"
+path = "src/openkattis/pot.rs"

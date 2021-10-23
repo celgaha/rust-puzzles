@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn iu() {
     println!(".iusai la celga'a cu zabna")
 }
