@@ -58,3 +58,15 @@ path = "src/openkattis/railroad2.rs"
 [[bin]]
 name = "pot"
 path = "src/openkattis/pot.rs"
+
+[[bin]]
+name = "reversebinary"
+path = "src/openkattis/reversebinary.rs"
+
+[[bin]]
+name = "pet"
+path = "src/openkattis/pet.rs"
+
+[[bin]]
+name = "detaileddifferences"
+path = "src/openkattis/detaileddifferences.rs"
