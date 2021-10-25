@@ -70,3 +70,19 @@ path = "src/openkattis/pet.rs"
 [[bin]]
 name = "detaileddifferences"
 path = "src/openkattis/detaileddifferences.rs"
+
+[[bin]]
+name = "triarea"
+path = "src/openkattis/triarea.rs"
+
+[[bin]]
+name = "provincesandgold"
+path = "src/openkattis/provincesandgold.rs"
+
+[[bin]]
+name = "tarifa"
+path = "src/openkattis/tarifa.rs"
+
+[[bin]]
+name = "magictrick"
+path = "src/openkattis/magictrick.rs"
