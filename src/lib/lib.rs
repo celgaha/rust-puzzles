@@ -47,13 +47,21 @@ pub fn i32_to_binary(a: i32) -> Vec<bool> {
 
 pub fn binary_to_i32(v: &[bool]) -> i32 {
     let mut a = 0;
-    for k in 0..v.len() {
-        if v[k] {
+    for (k, b) in v.iter().enumerate() {
+        if *b {
             a += 2i32.pow(k as u32);
         }
     }
-    let b = a;
-    b
+    a
+}
+
+pub fn contains<T: std::cmp::PartialEq>(k: &T, v: &[T]) -> bool {
+    for n in v {
+        if *k == *n {
+            return true;
+        }
+    }
+    false
 }
 
 #[test]

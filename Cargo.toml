@@ -86,3 +86,15 @@ path = "src/openkattis/tarifa.rs"
 [[bin]]
 name = "magictrick"
 path = "src/openkattis/magictrick.rs"
+
+[[bin]]
+name = "boatparts"
+path = "src/openkattis/boatparts.rs"
+
+[[bin]]
+name = "modulo"
+path = "src/openkattis/modulo.rs"
+
+[[bin]]
+name = "simonsays"
+path = "src/openkattis/simonsays.rs"
