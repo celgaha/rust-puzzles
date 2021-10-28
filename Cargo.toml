@@ -98,3 +98,11 @@ path = "src/openkattis/modulo.rs"
 [[bin]]
 name = "simonsays"
 path = "src/openkattis/simonsays.rs"
+
+[[bin]]
+name = "timeloop"
+path = "src/openkattis/timeloop.rs"
+
+[[bin]]
+name = "ratingproblems"
+path = "src/openkattis/ratingproblems.rs"
