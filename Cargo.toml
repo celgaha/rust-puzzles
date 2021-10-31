@@ -114,3 +114,11 @@ path = "src/openkattis/jumbojavelin.rs"
 [[bin]]
 name = "jackolanternjuxtaposition"
 path = "src/openkattis/jackolanternjuxtaposition.rs"
+
+[[bin]]
+name = "cold"
+path = "src/openkattis/cold.rs"
+
+[[bin]]
+name = "hydrasheads"
+path = "src/openkattis/hydrasheads.rs"
