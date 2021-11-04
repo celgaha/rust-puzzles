@@ -10,9 +10,9 @@ fn steps(mut heads: i32, mut tails: i32) -> i32 {
         moves += 1;
         tails += 1;
     }
-    moves += tails/2;
-    heads += tails/2;
-    moves += heads/2;
+    moves += tails / 2;
+    heads += tails / 2;
+    moves += heads / 2;
     moves
 }
 

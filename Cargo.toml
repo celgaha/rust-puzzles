@@ -122,3 +122,15 @@ path = "src/openkattis/cold.rs"
 [[bin]]
 name = "hydrasheads"
 path = "src/openkattis/hydrasheads.rs"
+
+[[bin]]
+name = "lastfactorialdigit"
+path = "src/openkattis/lastfactorialdigit.rs"
+
+[[bin]]
+name = "autori"
+path = "src/openkattis/autori.rs"
+
+[[bin]]
+name = "grading"
+path = "src/openkattis/grading.rs"
