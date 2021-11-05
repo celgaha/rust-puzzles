@@ -134,3 +134,11 @@ path = "src/openkattis/autori.rs"
 [[bin]]
 name = "grading"
 path = "src/openkattis/grading.rs"
+
+[[bin]]
+name = "electricaloutlets"
+path = "src/openkattis/electricaloutlets.rs"
+
+[[bin]]
+name = "oddecho"
+path = "src/openkattis/oddecho.rs"
