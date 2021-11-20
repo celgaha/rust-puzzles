@@ -142,3 +142,11 @@ path = "src/openkattis/electricaloutlets.rs"
 [[bin]]
 name = "oddecho"
 path = "src/openkattis/oddecho.rs"
+
+[[bin]]
+name = "knotknowledge"
+path = "src/openkattis/knotknowledge.rs"
+
+[[bin]]
+name = "sumkindofproblem"
+path = "src/openkattis/sumkindofproblem.rs"
