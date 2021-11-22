@@ -150,3 +150,27 @@ path = "src/openkattis/knotknowledge.rs"
 [[bin]]
 name = "sumkindofproblem"
 path = "src/openkattis/sumkindofproblem.rs"
+
+[[bin]]
+name = "r2"
+path = "src/openkattis/r2.rs"
+
+[[bin]]
+name = "quadrant"
+path = "src/openkattis/quadrant.rs"
+
+[[bin]]
+name = "everywhere"
+path = "src/openkattis/everywhere.rs"
+
+[[bin]]
+name = "heartrate"
+path = "src/openkattis/heartrate.rs"
+
+[[bin]]
+name = "grassseed"
+path = "src/openkattis/grassseed.rs"
+
+[[bin]]
+name = "fyi"
+path = "src/openkattis/fyi.rs"
