@@ -174,3 +174,15 @@ path = "src/openkattis/grassseed.rs"
 [[bin]]
 name = "fyi"
 path = "src/openkattis/fyi.rs"
+
+[[bin]]
+name = "faktor"
+path = "src/openkattis/faktor.rs"
+
+[[bin]]
+name = "digitswap"
+path = "src/openkattis/digitswap.rs"
+
+[[bin]]
+name = "dicecup"
+path = "src/openkattis/dicecup.rs"
