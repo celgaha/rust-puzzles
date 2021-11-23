@@ -186,3 +186,15 @@ path = "src/openkattis/digitswap.rs"
 [[bin]]
 name = "dicecup"
 path = "src/openkattis/dicecup.rs"
+
+[[bin]]
+name = "chanukah"
+path = "src/openkattis/chanukah.rs"
+
+[[bin]]
+name = "bela"
+path = "src/openkattis/bela.rs"
+
+[[bin]]
+name = "batterup"
+path = "src/openkattis/batterup.rs"
