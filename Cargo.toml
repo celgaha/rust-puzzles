@@ -198,3 +198,19 @@ path = "src/openkattis/bela.rs"
 [[bin]]
 name = "batterup"
 path = "src/openkattis/batterup.rs"
+
+[[bin]]
+name = "stopwatch"
+path = "src/openkattis/stopwatch.rs"
+
+[[bin]]
+name = "isithalloween"
+path = "src/openkattis/isithalloween.rs"
+
+[[bin]]
+name = "greetings2"
+path = "src/openkattis/greetings2.rs"
+
+[[bin]]
+name = "apaxiaaans"
+path = "src/openkattis/apaxiaaans.rs"
