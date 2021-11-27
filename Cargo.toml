@@ -226,3 +226,7 @@ path = "src/openkattis/dasblinkenlights.rs"
 [[bin]]
 name = "trik"
 path = "src/openkattis/trik.rs"
+
+[[bin]]
+name = "filip"
+path = "src/openkattis/filip.rs"
