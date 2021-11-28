@@ -230,3 +230,11 @@ path = "src/openkattis/trik.rs"
 [[bin]]
 name = "filip"
 path = "src/openkattis/filip.rs"
+
+[[bin]]
+name = "smil"
+path = "src/openkattis/smil.rs"
+
+[[bin]]
+name = "freefood"
+path = "src/openkattis/freefood.rs"
