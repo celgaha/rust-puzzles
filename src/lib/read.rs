@@ -1,15 +1,19 @@
 use std::fmt::Debug;
-use std::io::stdin;
+use std::io::{stdin, BufRead};
 use std::str::FromStr;
 
-pub fn read_line(s: &mut String) {
-    stdin().read_line(s).unwrap();
+pub fn buf_read_line<B: BufRead>(buf: &mut B, s: &mut String) {
+    buf.read_line(s).unwrap();
     if s.ends_with("\r\n") {
         s.pop();
         s.pop();
     } else if s.ends_with("\n") {
         s.pop();
     }
+}
+
+pub fn read_line(s: &mut String) {
+    buf_read_line(&mut stdin().lock(), s)
 }
 
 pub fn readone<T: FromStr>(s: &mut String) -> T
