@@ -238,3 +238,7 @@ path = "src/openkattis/smil.rs"
 [[bin]]
 name = "freefood"
 path = "src/openkattis/freefood.rs"
+
+[[bin]]
+name = "day1-1"
+path = "src/aoc2021/day1-1.rs"
