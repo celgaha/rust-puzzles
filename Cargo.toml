@@ -238,27 +238,3 @@ path = "src/openkattis/smil.rs"
 [[bin]]
 name = "freefood"
 path = "src/openkattis/freefood.rs"
-
-[[bin]]
-name = "day1-1"
-path = "src/aoc2021/day1-1.rs"
-
-[[bin]]
-name = "day1-2"
-path = "src/aoc2021/day1-2.rs"
-
-[[bin]]
-name = "day2-1"
-path = "src/aoc2021/day2-1.rs"
-
-[[bin]]
-name = "day2-2"
-path = "src/aoc2021/day2-2.rs"
-
-[[bin]]
-name = "day3-1"
-path = "src/aoc2021/day3-1.rs"
-
-[[bin]]
-name = "day3-2"
-path = "src/aoc2021/day3-2.rs"
