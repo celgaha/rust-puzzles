@@ -1,17 +1,23 @@
-use puzzles::{is_divisible64, is_prime};
+use puzzles::{is_relatively_prime, is_divisible64};
 
 #[allow(dead_code)]
-pub fn solve(a: i64) -> i64 {
-    let mut m = 0;
-
-    for k in 1..a {
-        if is_prime(k) {
-            if is_divisible64(a, k) {
-                m = k;
+pub fn solve(mut a: i64) -> i64 {
+    let mut v: Vec<i32> = Vec::new();   
+        for k in 2..a {
+            if is_relatively_prime(k.try_into().unwrap(), &v) {
+                v.push(k.try_into().unwrap());
+                while is_divisible64(a, k) {
+                    a = a/k;
+                }
+            }
+            println!("{}", a);
+            if a <= 1 {
+                break;
             }
         }
-    }
-    m
+    let m = v.pop().unwrap();
+    println!("{}", m);
+    m.try_into().unwrap()
 }
 
 #[test]
