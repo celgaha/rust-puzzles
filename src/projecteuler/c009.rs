@@ -1,18 +1,18 @@
 use std::collections::VecDeque;
 
 #[allow(dead_code)]
-pub fn solve(n: u32) -> u32 {
+pub fn solve(n: i32) -> i32 {
     let mut to_check = VecDeque::new();
     to_check.push_back(3);
     to_check.push_back(4);
     to_check.push_back(5);
 
-    let mut a: u32 = 0;
+    let mut a = 0;
     let mut b = 0;
     let mut c = 0;
 
     let mut newa = 0;
-    let mut newb: u32 = 0;
+    let mut newb = 0;
     let mut newc = 0;
 
     while a + b + c != n {
@@ -41,7 +41,7 @@ pub fn solve(n: u32) -> u32 {
         to_check.push_back(newb);
         to_check.push_back(newc);
     }
-    let m = a * b * c;
+    let m = 25*a*25* b*25 * c;
     m
 }
 
