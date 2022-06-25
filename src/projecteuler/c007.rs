@@ -1,5 +1,6 @@
 use puzzles::is_relatively_prime;
 
+#[allow(dead_code)]
 pub fn solve(a: usize) -> i32 {
     let mut v: Vec<i32> = Vec::new();
     let mut p = 2;

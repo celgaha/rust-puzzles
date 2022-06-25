@@ -1,5 +1,5 @@
 mod projecteuler;
 
 fn main() {
-    println!("Answer = {}", projecteuler::c007::solve(10001))
+    println!("Answer = {}", projecteuler::c009::solve(12))
 }
