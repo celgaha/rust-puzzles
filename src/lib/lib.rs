@@ -31,6 +31,16 @@ pub fn is_relatively_prime(n: i32, v: &[i32]) -> bool {
     true
 }
 
+#[allow(dead_code)]
+pub fn is_relatively_prime64(n: i64, v: &[i64]) -> bool {
+    for k in v {
+        if is_divisible64(n, *k) {
+            return false;
+        }
+    }
+    true
+}
+
 pub fn i32_to_binary(a: i32) -> Vec<bool> {
     let mut v = Vec::new();
     let mut b = a;

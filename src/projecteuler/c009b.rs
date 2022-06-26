@@ -33,7 +33,7 @@ pub fn solve(n: i32) -> Option<i32> {
         dbg!(a, b, c);
         if n % (a + b + c) == 0 {
             let m = n / (a + b + c);
-            return Some(a*b*c*m*m*m)
+            return Some(a * b * c * m * m * m);
         }
         to_check.push_back(m0 * a + m1 * b + m2 * c);
     }

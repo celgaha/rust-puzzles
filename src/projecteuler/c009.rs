@@ -11,15 +11,15 @@ pub fn solve(n: i32) -> i32 {
     let mut b = 0;
     let mut c = 0;
 
-    let mut newa = 0;
-    let mut newb = 0;
-    let mut newc = 0;
+    let mut newa;
+    let mut newb;
+    let mut newc;
 
     while a + b + c != n {
         a = to_check.pop_front().unwrap();
         b = to_check.pop_front().unwrap();
         c = to_check.pop_front().unwrap();
-    
+
         newa = 2 * a + b - c;
         newb = 2 * b - 2 * a + 2 * c;
         newc = b - 2 * a + 3 * c;
@@ -41,7 +41,7 @@ pub fn solve(n: i32) -> i32 {
         to_check.push_back(newb);
         to_check.push_back(newc);
     }
-    let m = 25*a*25* b*25 * c;
+    let m = 25 * a * 25 * b * 25 * c;
     m
 }
 
