@@ -16,7 +16,7 @@ fn main() {
                         value = (n as i32) - 96;
                     }
                     result += value;
-                    break
+                    break;
                 }
             }
         }
