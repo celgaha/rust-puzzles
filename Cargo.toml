@@ -266,3 +266,7 @@ path = "src/aoc2023/1-1.rs"
 [[bin]]
 name = "1-2"
 path = "src/aoc2023/1-2.rs"
+
+[[bin]]
+name = "findingana"
+path = "src/openkattis/findingana.rs"
