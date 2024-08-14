@@ -40,3 +40,20 @@ where
 {
     readmore::<T>(s).collect::<Vec<_>>()
 }
+
+pub fn readpair<T: FromStr>(s: &mut String) -> (T, T)
+where
+    <T as FromStr>::Err: Debug,
+{
+    let mut it = readmore(s);
+    (it.next().unwrap(), it.next().unwrap())
+}
+
+pub fn readtriple<T: FromStr>(s: &mut String) -> (T, T, T)
+where
+    <T as FromStr>::Err: Debug,
+{
+    let mut it = readmore(s);
+    (it.next().unwrap(), it.next().unwrap(), it.next().unwrap())
+}
+
