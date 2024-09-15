@@ -271,7 +271,10 @@ path = "src/aoc2023/1-2.rs"
 name = "findingana"
 path = "src/openkattis/findingana.rs"
 
-
 [[bin]]
 name = "natjecanje"
 path = "src/openkattis/natjecanje.rs"
+
+[[bin]]
+name = "collatz"
+path = "src/random/collatz.rs"
